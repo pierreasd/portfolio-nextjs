@@ -17,7 +17,7 @@ export default function Home() {
       {/* Greeting Banner */}
       <div className="bg-gray-100/80 dark:bg-gray-700/80 backdrop-blur-sm rounded-lg p-3 text-center mb-6 shadow-sm">
         <p className="text-gray-800 dark:text-gray-200">
-          Hello, I&apos;m a Software Engineer based in Depok, Indonesia!
+          Hello, I&apos;m a Software Engineer based in Jakarta, Indonesia!
         </p>
       </div>
 
