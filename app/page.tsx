@@ -1,3 +1,4 @@
+import { SquareStar } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -209,6 +210,16 @@ export default function Home() {
               className="flex items-center text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 hover:bg-teal-50 dark:hover:bg-teal-900/30 px-3 py-2 rounded-md transition-all w-fit font-medium"
             >
               <span className="mr-3 font-bold">in</span> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/_pierreasd/"
+              target="_blank"
+              className="flex items-center text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 hover:bg-teal-50 dark:hover:bg-teal-900/30 px-3 py-2 rounded-md transition-all w-fit font-medium"
+            >
+              {/* <span className="mr-3 font-bold">in</span> Instagram */}
+              <SquareStar size={18} className="mr-3" /> Instagram 
             </a>
           </li>
         </ul>
