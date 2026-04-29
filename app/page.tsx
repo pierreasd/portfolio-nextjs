@@ -39,7 +39,7 @@ export default function Home() {
               Photo
             </div> */}
             <Image
-              src="/duck.webp"
+              src="/avatar.png"
               alt="Profile"
               width={96}
               height={96}
@@ -131,33 +131,33 @@ export default function Home() {
         <div className="space-y-3 text-gray-700 dark:text-gray-300">
           <div className="flex">
             <span className="font-bold w-32 shrink-0">Front-end</span>
-            <span>React, Next.js, Tailwind CSS, Vue.js, HTML</span>
+            <span>React, Next.js, Tailwind CSS, Vue.js, HTML.</span>
           </div>
           <div className="flex">
             <span className="font-bold w-32 shrink-0">Back-end</span>
-            <span>PHP CodeIgniter, Node.js, Express.js, Python, C#, Java</span>
+            <span>PHP CodeIgniter, Node.js, Express.js, Python, C#, Java.</span>
           </div>
           <div className="flex">
             <span className="font-bold w-32 shrink-0">Database</span>
-            <span>PostgreSQL, MySQL, MSSQL, Oracle</span>
+            <span>PostgreSQL, MySQL, MSSQL, Oracle.</span>
           </div>
           <div className="flex">
             <span className="font-bold w-32 shrink-0">Middleware</span>
             <span>
               SoftwareAG webMethods, Designer, API Gateway, Java microservices,
-              PostgreSQL, Elasticsearch, kibana, redis, kafka
+              PostgreSQL, Elasticsearch, kibana, redis, kafka, ISO8385 messaging format.
             </span>
           </div>
           <div className="flex">
             <span className="font-bold w-32 shrink-0">
               Testing / Automation
             </span>
-            <span>Katalon Studio, JMeter, Postman, Grafana</span>
+            <span>Katalon Studio, JMeter, Postman, Grafana, Cisco AppDyn.</span>
           </div>
           <div className="flex">
             <span className="font-bold w-32 shrink-0">Operating Systems</span>
             <span>
-              Windows, macOS, RHEL Enterprise, Ubuntu, {"(Linux terminals)"}
+              Windows, macOS, RHEL Enterprise, Ubuntu, {"(Linux terminals)"}.
             </span>
           </div>
           <div className="flex">
@@ -223,6 +223,9 @@ export default function Home() {
             </a>
           </li>
         </ul>
+      </section>
+      <section className="mt-12">
+        <p className="text-gray-400 dark:text-gray-600 text-sm">© {new Date().getFullYear()} All rights reserved</p>
       </section>
     </div>
   );

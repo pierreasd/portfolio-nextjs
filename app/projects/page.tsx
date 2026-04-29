@@ -33,7 +33,7 @@ const projects: Project[] = [
     id: "hibank-financial",
     title: "Financial Transaction Middleware",
     description: "SoftwareAG webMethods, Java, PostgreSQL",
-    fullDescription: "Developed a financial transaction middleware using SoftwareAG webMethods, Java, and PostgreSQL for PT Hibank. The middleware serves as an intermediary layer that facilitates secure and efficient communication between financial systems, including core banking, payment gateways, and billers. It handles transaction processing, data transformation, and routing. Financial transactions include inhouse and online fund transfer, balance inquiry, payment history (mutasi rekening), and other banking utilities such as change ATM PIN, block ATM card.",
+    fullDescription: "Developed a financial transaction middleware using SoftwareAG webMethods, Java, and PostgreSQL for PT Hibank. The middleware serves as an intermediary layer that facilitates secure and efficient communication between financial systems, including core banking (ISO8385 messaging format), payment gateways, and billers. It handles transaction processing, data transformation, and routing. Financial transactions include inhouse and online fund transfer, balance inquiry, payment history (mutasi rekening), and other banking utilities such as change ATM PIN, block ATM card.",
     thumbnail: "/hibank.jpg", 
     label: "Hibank / Middleware Development",
   },
