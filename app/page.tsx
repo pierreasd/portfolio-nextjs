@@ -37,14 +37,13 @@ export default function Home() {
             {/* <div className="w-full h-full flex items-center justify-center text-gray-400 dark:text-gray-500 text-xs">
               Photo
             </div> */}
-            <Image 
-                src="/duck.webp" 
-                alt="Profile" 
-                width={96} 
-                height={96} 
-                className="w-full h-full flex items-center justify-center text-gray-400 dark:text-gray-500 text-xs object-cover"
-              /> 
-           
+            <Image
+              src="/duck.webp"
+              alt="Profile"
+              width={96}
+              height={96}
+              className="w-full h-full flex items-center justify-center text-gray-400 dark:text-gray-500 text-xs object-cover"
+            />
           </div>
         </div>
       </div>
@@ -55,17 +54,13 @@ export default function Home() {
           Work
         </h3>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 text-justify indent-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          I am a Full-Stack Engineer currently focusing in Testing Automation. I
+          have always have a thing for programming and tech. With over 6 years
+          of experience in software and middleware development, with my determination I hope I can
+          bring my skills to good use.
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-justify indent-4">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum. Curabitur pretium
-          tincidunt lacus. Nulla gravida orci a odio.
+          I have experience working in industries such as finance, telecommunications, and mining. I have worked on projects such as front-end development of HRIS applications to developing financial transaction middleware and automating testing for banking institutions. I am currently working as a Quality Engineer where I write Groovy Script in Katalon Studio to improve testing efficiency and generate reports. I am passionate about learning new technologies and continuously improving my skills.
         </p>
 
         <div className="flex justify-center">
@@ -169,6 +164,12 @@ export default function Home() {
             <span>
               git, Docker, CI/CD, Kubernetes, Jenkins, Agile methodologies,
               RESTful APIs
+            </span>
+          </div>
+          <div className="flex">
+            <span className="font-bold w-32 shrink-0">Languages</span>
+            <span>
+              Indonesian (Native), English (Fluent), Japanese (JLPT N3, currently self-studying)
             </span>
           </div>
         </div>
