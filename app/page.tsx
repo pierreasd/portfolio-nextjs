@@ -66,7 +66,7 @@ export default function Home() {
 
         <div className="flex justify-center">
           <Link
-            href="/portfolio"
+            href="/projects"
             className="bg-teal-500 hover:bg-teal-600 text-white font-medium py-2 px-6 rounded-md transition-colors shadow-sm"
           >
             My portfolio &gt;
